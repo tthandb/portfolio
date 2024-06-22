@@ -1,11 +1,20 @@
-import { Card } from "@repo/ui/card";
+import { GitPullRequest } from "lucide-react";
+import Header from "../components/header";
+import { Button } from "@repo/ui"
 
 export default function Page(): JSX.Element {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24">
-      <div className="grid mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        I'm Ryan Nguyen a.k.a Binh Nguyen Duc
-      </div>
-    </main>
+    <>
+      <Header />
+      <main>
+        <div>
+          I'm Ryan Nguyen a.k.a Binh Nguyen Duc
+        </div>
+        <Button className="w-full">
+          <GitPullRequest className="mr-2 h-4 w-4" /> GitPullRequest
+        </Button>
+      </main>
+    </>
+
   );
 }
