@@ -2,11 +2,11 @@ import Image from 'next/image'
 import Header from '../components/header';
 import ContactLink from '../components/contact-link';
 
-export default function Page(): NextPage {
+export default function Page() {
   return (
     <>
     <Header />
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="min-h-[300vh] bg-background">
       <section
         id="home"
         className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28"
@@ -35,8 +35,8 @@ export default function Page(): NextPage {
         </div>
         <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
           <Image
-           src={}
-           {/*  src="https://static.wikia.nocookie.net/valorant/images/c/c5/Sova_Artwork_Full.png/revision/latest"*/}
+             src="/sova.jpg"
+             fill
           />
           {/*<img*/}
           {/*  alt=""*/}

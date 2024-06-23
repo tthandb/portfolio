@@ -27,7 +27,7 @@ return (
       target="_blank"
       referrerPolicy="no-referrer"
       className="hover:scale-110 cursor-pointer"
-      href="https://linkedin.com/in/chiragbhalotia"
+      href="https://linkedin.com/in/tthandb"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ return (
       target="_blank"
       referrerPolicy="no-referrer"
       className="hover:scale-110 cursor-pointer"
-      href="https://www.instagram.com/code.chirag"
+      href="https://www.instagram.com/tthandb"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ return (
       target="_blank"
       referrerPolicy="no-referrer"
       className="hover:scale-110 cursor-pointer"
-      href="mailto:me@chirag.codes"
+      href="mailto:tthandb@gmail.com"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

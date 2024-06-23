@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <header className="bg-grey shadow-sm mx-auto  fixed z-50 left-0 right-0 transition-all">
+        <header className="bg-navigation shadow-sm mx-auto  fixed z-50 left-0 right-0 transition-all">
             <div className="wrapper px-10 py-5 w-full relative">
                 <div className="max-w-7xl mx-auto flex items-center justify-between">
                     <a href="#home">
