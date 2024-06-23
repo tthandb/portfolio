@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Header from '../components/header';
 import ContactLink from '../components/contact-link';
+import Header from '../components/header';
 
 export default function Page() {
   return (
@@ -8,12 +8,12 @@ export default function Page() {
     <Header />
     <main className="min-h-[300vh] bg-background">
       <section
-        id="home"
         className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28"
+        id="home"
       >
         <div className="text w-full lg:w-1/2">
           <h1 className="text-2xl lg:text-3xl">
-            Hi I'm <br />
+            Hi Im <br />
             <span className="text-6xl md:text-7xl lg:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-primary  to-accent"> Ryan </span>
           </h1>
           <p className="lg:text-lg text-muted mt-4 font-medium max-w-xl">
@@ -35,8 +35,9 @@ export default function Page() {
         </div>
         <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
           <Image
-             src="/sova.jpg"
+             alt="image"
              fill
+             src="/sova.jpg"
           />
           {/*<img*/}
           {/*  alt=""*/}

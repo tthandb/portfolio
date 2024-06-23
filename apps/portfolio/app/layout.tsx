@@ -1,10 +1,10 @@
 import "./globals.css";
 import "@repo/ui/styles.css";
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono as JetBrainsMono } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
-const jetbrain = JetBrains_Mono({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const jetbrain = JetBrainsMono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Home | Ryan Nguyen",
