@@ -40,13 +40,12 @@ function Header() {
     >
       <div className="wrapper px-10 py-5 w-full relative">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <Link href="#home">
-            <header className="flex items-center gap-1">
-              <span>{'< '}</span>
-              <h1 className="text-2xl font-medium">
-                Ryan
+          <Link href="/">
+            <header className="flex items-center gap-1 text-white">
+              <h1 className="text-2xl">
+                <em>const</em> <strong>Ryan</strong> <em>{`= () => {`}</em>
               </h1>
-              <span>{' />'}</span>
+              <span>  </span>
             </header>
           </Link>
           <nav className="text-muted gap-8 hidden items-center  lg:flex">

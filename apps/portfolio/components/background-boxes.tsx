@@ -1,22 +1,26 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { cn } from "@repo/ui";
+'use client';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { cn } from '@repo/ui';
 
-export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
+export const BoxesCore = ({className, ...rest}: { className?: string }) => {
   const rows = new Array(150).fill(1);
   const cols = new Array(100).fill(1);
   let colors = [
-    "background",
-    "--sky-300",
-    "--pink-300",
-    "--green-300",
-    "--yellow-300",
-    "--red-300",
-    "--purple-300",
-    "--blue-300",
-    "--indigo-300",
-    "--violet-300",
+    '--white',
+    '--gray-50',
+    '--gray-100',
+    '--gray-200',
+    '--gray-300',
+    // '--sky-300',
+    // '--pink-300',
+    // '--green-300',
+    // '--yellow-300',
+    // '--red-300',
+    // '--purple-300',
+    // '--blue-300',
+    // '--indigo-300',
+    // '--violet-300',
   ];
   const getRandomColor = () => {
     return colors[Math.floor(Math.random() * colors.length)];
@@ -28,8 +32,8 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
         transform: `translate(-40%,-60%) `,
       }}
       className={cn(
-        "absolute left-1/4 p-4 -top-1/4 flex -translate-x-1/2 -translate-y-1/2 w-full h-full z-0 ",
-        className
+        'absolute left-1/4 p-4 -top-1/4 flex -translate-x-1/2 -translate-y-1/2 w-full h-full z-0 ',
+        className,
       )}
       {...rest}
     >
@@ -42,10 +46,10 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
             <motion.div
               whileHover={{
                 backgroundColor: `var(${getRandomColor()})`,
-                transition: { duration: 0 },
+                transition: {duration: 0},
               }}
               animate={{
-                transition: { duration: 2 },
+                transition: {duration: 2},
               }}
               key={`col` + j}
               className="w-8 h-8 border-r border-t border-slate-700 relative"
@@ -58,13 +62,7 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
                   strokeWidth="1.5"
                   stroke="currentColor"
                   className="absolute h-6 w-10 -top-[14px] -left-[22px] text-slate-700 stroke-[1px] pointer-events-none"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 6v12m6-6H6"
-                  />
-                </svg>
+                />
               ) : null}
             </motion.div>
           ))}
