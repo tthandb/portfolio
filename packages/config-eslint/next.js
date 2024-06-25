@@ -39,9 +39,12 @@ module.exports = {
       },
     },
   },
-  ignorePatterns: ["node_modules/", "dist/"],
+  ignorePatterns: ["node_modules/", "dist/", "apps/*"],
   // add rules configurations here
   rules: {
     "import/no-default-export": "off",
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "warn"
+
   },
 };
