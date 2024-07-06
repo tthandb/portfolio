@@ -12,7 +12,7 @@ const jetbrain = JetBrainsMono({subsets: ['latin']});
 export const metadata: Metadata = {
   title: 'Ryan Nguyen',
   description: 'Hello! I\'m Ryan Nguyen, a self-taught software developer based in Vietnam with a passion for technology and innovation. I specialize in developing sophisticated web applications and versatile cross-platform mobile apps, leveraging the latest modern technologies to deliver high-quality, user-centric solutions. My journey in software development is fueled by continuous learning and a commitment to excellence, ensuring that every project I undertake meets the highest standards of functionality and design.',
-  icons: '/favicon.png',
+  icons: '/favicon.ico',
   creator: 'Ryan Nguyen',
 
   authors: [
